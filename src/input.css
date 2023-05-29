@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .card {
+      max-width: 100%;
+      background-color: theme('colors.white');
+      border-radius: theme('borderRadius.2xl');
+      padding: theme('spacing.4');
+      box-shadow: theme('boxShadow.xl');
+    }
+
+    .card1 {
+      background-color: theme('colors.white');
+      border-radius: theme('borderRadius.2xl');
+      padding: theme('spacing.3');
+      box-shadow: theme('boxShadow.xl');
+    }
+};
+
+.display-none{
+    @apply hidden;
+}
